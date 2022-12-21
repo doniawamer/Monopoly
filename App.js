@@ -1,20 +1,5 @@
-import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import Banker from "./personas/Banker";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>yay</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
+  return <Banker />;
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
